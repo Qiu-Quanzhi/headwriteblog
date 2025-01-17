@@ -71,26 +71,16 @@
   }
 }
 
-/* 去除a标签的默认下划线 */
 a {
-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
 }
 
-/* 去除a标签的默认颜色 */
-a {
-color: inherit;
-}
-
-/* 去除a标签被点击时的外部轮廓线 */
 a:focus {
-outline: none;
+  outline: none;
 }
 
-/* 去除a标签的不同状态下的下划线 */
-a:link,
-a:visited,
-a:hover,
-a:active {
-text-decoration: none;
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
 }
 </style>
